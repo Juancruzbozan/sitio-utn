@@ -2,6 +2,7 @@
 *{
 	margin:0;
 	padding:0;
+	box-sizing: border-box;
 }
 
 html{
@@ -10,15 +11,15 @@ html{
 
 .pantalla{
 	width:100%;
-	height:100vh;
+	height:50vh;
 	color:white;
 	text-align:center;
-	
+	font-size:4em;
+	padding-top:20vh;
 }
 
 #inicio{
 	background-color:violet;
-	padding-top:40vh;
 }
 
 #diseñoweb{
@@ -53,6 +54,8 @@ html{
 #nav{
 	text-align:center;
 	margin:0px auto;
+	padding-top:0;
+
 }
 #nav ul{
 	list-style-type:none;
@@ -62,7 +65,6 @@ html{
 }
 #nav li{
 	display:inline-block;
-	
 }
 li a{
 	padding:30px;
@@ -71,5 +73,12 @@ li a{
 	font-weight:bold;
 	color:white;
 	display:inline-block;
+}
+#header{
+	padding-top:0;
+}
+
+a:hover{
+	color: white;
 
 }
