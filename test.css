@@ -1,1 +1,19 @@
 /*test.css*/
+#fondos{
+    height:100vh;
+    background-image: radial-gradient(red,blue,pink, #900,#F90);
+    background-repeat:no-repeat;
+	background-position:align center;
+	background-size: cover;
+}
+
+
+
+table tr:nth-child(odd) {
+    background-color:green;
+ }
+ 
+ #títulos{
+    color:orange;
+    background-color: grey;
+ }

@@ -66,6 +66,7 @@ html{
 #nav li{
 	display:inline-block;
 }
+
 li a{
 	padding:30px;
 	font-family:arial;
@@ -79,6 +80,20 @@ li a{
 }
 
 a:hover{
-	color: white;
+	color:white;
+	list-style-type: none;
+}
+a:active{
+	color:white;
+	list-style-type: none;
+}
+
+p{
+	background-color: black;
+	text-align: center;
+	font-family:arial;
+}
+a{
+	color:white;
 
 }
