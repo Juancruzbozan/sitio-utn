@@ -1,4 +1,4 @@
-/*index.css*/
+﻿/*index.css*/
 *{
 	margin:0;
 	padding:0;
@@ -9,52 +9,93 @@ html{
 	scroll-behavior:smooth;
 }
 
+
 .pantalla{
 	width:100%;
-	height:50vh;
+	height:100vh;
 	color:white;
 	text-align:center;
-	font-size:4em;
-	padding-top:20vh;
+	font-size:2em;
+	
 }
 
 #inicio{
-	background-color:violet;
+	background-color:black;
+	background-image:url(process.jpg);
+	background-position:left center;
+	background-repeat:no-repeat;
+	background-size:51%;
+	
 }
 
 #diseñoweb{
-	background-color:#00ffff;
+	background-color:#6E2C00;
+	background-image:url(process.jpg);
+	background-position:right center;
+	background-repeat:no-repeat;
+	background-size:50%;
 }
 
 #fotografia{
-	background-color:#00FF00;
+	background-color:#A04000;
+	background-image:url(process.jpg);
+	background-position:left center;
+	background-repeat:no-repeat;
+	background-size:51%;
 }
 #dibujo{
-	background-color:#58FA58;
+	background-color:#C0392B  ;
+	background-image:url(process.jpg);
+	background-position:right center;
+	background-repeat:no-repeat;
+	background-size:50%;
 }
 
 #pintura{
-	background-color:yellow;
+	background-color:#DC7633  ;
+	background-image:url(process.jpg);
+	background-position:left center;
+	background-repeat:no-repeat;
+	background-size:51%;
 }
 #diseño{
-	background-color:orange;
+	background-color:#515A5A;
+	background-image:url(process.jpg);
+	background-position:right center;
+	background-repeat:no-repeat;
+	background-size:50%;
 }
 #animación{
-	background-color:red;
+	background-color:#34495E;
+	background-image:url(process.jpg);
+	background-position:left center;
+	background-repeat:no-repeat;
+	background-size:51%;
 }	
 #acerca{
-	background-color:pink;
+	background-color:#154360;
+	background-image:url(process.jpg);
+	background-position:right center;
+	background-repeat:no-repeat;
+	background-size:50%;
 }
-#testconocimientos{
-	background-color:#585858;
+#testcurso{
+	background-color:#7D6608;
+	background-image:url(process.jpg);
+	background-position:left center;
+	background-repeat:no-repeat;
+	background-size:51%;
+	
 }
 #contacto{
-	background-color:black;
+	background-color:#F7DC6F;
+	padding:0px;
+	
 }
 #nav{
 	text-align:center;
 	margin:0px auto;
-	padding-top:0;
+	
 
 }
 #nav ul{
@@ -62,9 +103,11 @@ html{
 	position:fixed;
 	margin:0px auto;
 	width:100%;
+	
 }
 #nav li{
 	display:inline-block;
+	
 }
 
 li a{
@@ -74,6 +117,7 @@ li a{
 	font-weight:bold;
 	color:white;
 	display:inline-block;
+	
 }
 #header{
 	padding-top:0;
@@ -89,7 +133,6 @@ a:active{
 }
 
 p{
-	background-color: black;
 	text-align: center;
 	font-family:arial;
 }
@@ -97,3 +140,38 @@ a{
 	color:white;
 
 }
+
+.izquierda{
+	float: left;
+	width: 50%;
+	height: 100%;
+	
+}
+
+.derecha{
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+
+h1{
+	padding-top: 40vh;
+
+}
+
+#informacion{
+	background-color: darkslategray;
+}
+
+#final{
+	background-color: black;
+}
+h5{
+	display:inline-block;
+	padding-top:40vh
+
+}
+h3{
+	text-decoration:none;
+}
+

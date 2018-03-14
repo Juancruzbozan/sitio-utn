@@ -1,4 +1,12 @@
 /*test.css*/
+
+.pantalla{
+	width:100%;
+	height:100vh;
+	color:black;
+	padding-top:20vh;
+}
+/*Editar pantalla, está quedando chico y fuera del cuadrado*/
 #fondos{
     height:100vh;
     background-image: radial-gradient(red,blue,pink, #900,#F90);
@@ -12,8 +20,9 @@
 table tr:nth-child(odd) {
     background-color:green;
  }
- 
+  
  #títulos{
     color:orange;
     background-color: grey;
  }
+ 
